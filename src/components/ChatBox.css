@@ -1,0 +1,71 @@
+.chatbox-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    z-index: 1000;
+  }
+  
+  .chatbox-toggle {
+    background-color: #ef233c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chatbox-toggle:hover {
+    background-color: #d90429;
+  }
+  
+  .chatbox-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatbox-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+  }
+  
+  .chatbox-options {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-option {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .chat-option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .chatbox-response {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+  }
+  

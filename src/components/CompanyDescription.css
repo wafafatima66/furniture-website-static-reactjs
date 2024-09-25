@@ -1,0 +1,20 @@
+.company-description {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #edf2f4;
+  text-align: center;
+}
+
+.company-description h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2b2d42;
+}
+
+.company-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  color: #8d99ae;
+}
